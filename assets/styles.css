@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --light: #E6FDFF;
+    --dark: #1D2829;
+    --dark2: #121717;
+    --mint: #36BA9B;
+    --emerald: #4EDFA0;
+    --red-bright: #F8333C;
+    --red-dark: #960200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+#main-wrapper {
+    padding: 5vh 8vw;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    color: var(--light);
+}
+
+#dashboard-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+    color: var(--light);
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--dark2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dropdown {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    z-index: 1;
+
+}
+
+#tray-1 {
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin: 3vh 0;
+}
+
+#group-1{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+
+#year-dropdown {
+    width: 30%;
+    margin-top: 3vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#scatter-div{
+    height: 100%;
+}
+
+#group-2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#factor-dropdown{
+    margin-top: 3vh;
+}
+
+#histogram-div{
+    height: 100%;
+}
+
+#bar-div{
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+#country-dynamic-text{
+    display: inline-block;
+}
+
+#focus-title{
+    display: inline-block;
+    margin-left: 15px;
+    margin: 5vh 0;
+}
+
+#focus-section-top-group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+
+#focus-section-controls-container{
+    overflow: visible;
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+#focus-section-controls-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+#focus-country-dropdown{
+    width: 100%;
+    margin-bottom: 10%;
+    z-index: 3;
+}
+
+#focus-year-dropdown{
+    width: 100%;
+    z-index: 2;
+}
+
+#focus-factor-dropdown{
+    width: 40%;
+}
+
+#focus-section-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.stat-card {
+    background-color: var(--dark2);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.stat-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--light);
+}
+
+.stat{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: var(--light);
+}
+
+#factor-dropdown-line{
+    margin-bottom: 3vh;
+}
+
+#line-div{
+    height: 70vh;
+}
+
+.Select-control {
+    background-color: var(--dark) !important;
+}
+
+.Select-value-label {
+    color: var(--light) !important;
+}
+
+.Select-menu-outer {
+    background-color: var(--dark);
+    color: var(--light);
+}
