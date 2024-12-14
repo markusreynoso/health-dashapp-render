@@ -177,6 +177,8 @@ development_color_map = {
 """ Dashboard """
 
 app = Dash()
+server = app.server
+
 app.layout = html.Div(
     id='main-wrapper',
     children=[
