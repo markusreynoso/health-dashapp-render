@@ -9,7 +9,7 @@ import plotly.figure_factory as ff
 
 """ Variables"""
 
-dataset_url = "/datasets/Life Expectancy Data.csv"
+dataset_url = "https://raw.githubusercontent.com/markusreynoso/dashboard-datasets/refs/heads/main/Life%20Expectancy/Life%20Expectancy%20Data.csv"
 light = "#E6FDFF"
 dark = "#1D2829"
 dark2 = "#121717"
